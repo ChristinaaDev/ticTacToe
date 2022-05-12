@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+html{
+  font-size: 62.5%;
+}
+
 /* Clear fix hack */
 .clearfix:after {
      content: ".";
@@ -22,21 +26,86 @@
 /*******************************************/
 
 body {
-
+background: #5c58b6;
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+header > h1 {
+text-align: center;
+font-size: 5rem;
+color: #78bed5;
+margin: 0;
 }
 
-footer {
-
+footer{
+  text-align: center;
+  font-size: 3rem;
+  height: 5vh;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+/* h2 css */
+h2{
+  text-align: center;
+  font-size: 3rem;
+  color: #092547;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+/* main */
+.row {
+  display: flex;
+}
+.container {
+  /* border: 2px solid purple; */
+  width: max-content;
+  margin: auto;
+}
+section section {
+border: 2px solid #5c58b6;
+  height: 25vh;
+  width: 50vw;
+}
+
+.block{
+  background: #092547;
+}
+
+.block:hover{
+opacity: 75%;
+}
+
+/* footer css */
+a{
+  text-decoration: none;
+  color: #78bed5;
+  padding: 0 10px;
+}
+
+.footer{
+  margin-top: 30px;
+}
+
+/* button css */
+
+div{
+  width: max-content;
+  margin: auto;
+  padding-top: 20px;
+
+}
+
+button{
+  height: 30px;
+  width: 100px;
+  font-size: 2rem;
+ 
+  
+}
