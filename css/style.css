@@ -80,6 +80,7 @@ border: 2px solid #5c58b6;
 
 .block:hover{
 opacity: 75%;
+cursor: pointer;
 }
 
 /* footer css */
